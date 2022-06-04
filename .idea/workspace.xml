@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1595d190-c8a9-43a0-89db-b323d22b08e8" name="Changes" comment="Projetinho">
+      <change beforePath="$PROJECT_DIR$/.idea/EU.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/EU.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pysimplegui.py" beforeDir="false" afterPath="$PROJECT_DIR$/pysimplegui.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cadastro.py" beforeDir="false" afterPath="$PROJECT_DIR$/cadastro.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/login.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,11 +34,11 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/botspam.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/menu.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/pegarcotacoes.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/pysimplegui.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/testecadastro.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/window.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/pegarcotacoes.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/menu.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -58,7 +61,7 @@
       <recent name="C:\Users\USER\PycharmProjects\EU" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.login">
+  <component name="RunManager" selected="Python.pegarcotacoes">
     <configuration name="login" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="EU" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -80,7 +83,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="menu" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="pegarcotacoes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="EU" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -92,7 +95,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/menu.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pegarcotacoes.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -166,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.pegarcotacoes" />
         <item itemvalue="Python.pysimplegui (1)" />
+        <item itemvalue="Python.login" />
         <item itemvalue="Python.window" />
         <item itemvalue="Python.pysimplegui" />
-        <item itemvalue="Python.login" />
-        <item itemvalue="Python.menu" />
       </list>
     </recent_temporary>
   </component>

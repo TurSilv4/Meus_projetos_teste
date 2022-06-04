@@ -17,4 +17,3 @@ login_senha.append(user_login.copy())
 user_login.clear()
 base_dados.append(user.copy())
 user.clear()
-
