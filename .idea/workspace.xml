@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1595d190-c8a9-43a0-89db-b323d22b08e8" name="Changes" comment="Projetinho">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pysimplegui.py" beforeDir="false" afterPath="$PROJECT_DIR$/pysimplegui.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +58,7 @@
       <recent name="C:\Users\USER\PycharmProjects\EU" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.pysimplegui (1)">
+  <component name="RunManager" selected="Python.login">
     <configuration name="login" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="EU" />
       <option name="INTERPRETER_OPTIONS" value="" />
