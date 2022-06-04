@@ -23,4 +23,3 @@ while True: # MANTEM O PROGRAMA ABERTO
         janela['Texto_cotação'].update(f'A cotação do {codigo_cotação} é de R${cotacao}')
 
 janela.close() # FECHA A JANELA
-26.98
