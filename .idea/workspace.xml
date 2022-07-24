@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1595d190-c8a9-43a0-89db-b323d22b08e8" name="Changes" comment="Atualização do jokenpo para 2 jogadores">
-      <change afterPath="$PROJECT_DIR$/back_jokenpo_2p/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back_jokenpo_2p/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/back_jokenpo_2p/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jkp_2p.py" beforeDir="false" afterPath="$PROJECT_DIR$/jkp_2p.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +61,7 @@
       <recent name="C:\Users\USER\PycharmProjects\EU" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.novojokenpo">
+  <component name="RunManager" selected="Python.jkp_2p">
     <configuration name="jkp_2p" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="EU" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -124,7 +125,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pysimplegui (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="sla" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="EU" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -136,7 +137,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pysimplegui.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sla.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -168,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.novojokenpo" />
         <item itemvalue="Python.jkp_2p" />
+        <item itemvalue="Python.novojokenpo" />
+        <item itemvalue="Python.sla" />
         <item itemvalue="Python.teste" />
         <item itemvalue="Python.pegarcotacoes" />
-        <item itemvalue="Python.pysimplegui (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -206,7 +207,21 @@
       <option name="project" value="LOCAL" />
       <updated>1657813613981</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Atualização do jokenpo para 2 jogadores">
+      <created>1658693255299</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1658693255299</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Atualização do jokenpo para 2 jogadores">
+      <created>1658693265223</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1658693265223</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
