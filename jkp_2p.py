@@ -25,3 +25,4 @@ while True:
         continuar = str(input('Escolha uma opção válida [S/N] '))
     if continuar == 'N':
         break
+#  oi
