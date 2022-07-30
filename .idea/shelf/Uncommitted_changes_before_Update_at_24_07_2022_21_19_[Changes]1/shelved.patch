@@ -1,0 +1,115 @@
+Index: jokenpoh_2p.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>print('Vamos brincar de JOKENPÔ?')\nprint('Escolha entre \\n Pedra\\n Papel\\n Tesoura')\nplayer_1 = str(input('Jogador 1')).strip().title()\nplayer_2 = str(input('Jogador 2')).strip().title()\nprint('Você escolheu {}\\n'\n      'Eu escolhi {}'.format(player_1, computador))\nif player_1 == computador:\n    print('Olha! Deu empate\\n Vamos jogar denovo?')\nelif player_1 == 'Pedra':\n    if computador == 'Papel':\n        print('HAHAHA... Eu ganhei')\n    elif computador == 'Tesoura':\n        print('AAAH! Você ganhou.')\nelif player_1 == 'Papel':\n    if computador == 'Pedra':\n        print('AAAH! Você ganhou.')\n    elif computador == 'Tesoura':\n        print('HAHAHA... Eu ganhei.')\nelif player_1 == 'Tesoura':\n    if computador == 'Pedra':\n        print('HAHAHA... Eu ganhei.')\n    elif computador == 'Papel':\n        print('AAAH! Você ganhou.')\nelse:\n    print('JOGADA INVÁLIDA\\n TENTE NOVAMENTE!')\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/jokenpoh_2p.py b/jokenpoh_2p.py
+--- a/jokenpoh_2p.py	
++++ b/jokenpoh_2p.py	
+@@ -1,25 +1,9 @@
+-print('Vamos brincar de JOKENPÔ?')
+-print('Escolha entre \n Pedra\n Papel\n Tesoura')
+-player_1 = str(input('Jogador 1')).strip().title()
+-player_2 = str(input('Jogador 2')).strip().title()
+-print('Você escolheu {}\n'
+-      'Eu escolhi {}'.format(player_1, computador))
+-if player_1 == computador:
+-    print('Olha! Deu empate\n Vamos jogar denovo?')
+-elif player_1 == 'Pedra':
+-    if computador == 'Papel':
+-        print('HAHAHA... Eu ganhei')
+-    elif computador == 'Tesoura':
+-        print('AAAH! Você ganhou.')
+-elif player_1 == 'Papel':
+-    if computador == 'Pedra':
+-        print('AAAH! Você ganhou.')
+-    elif computador == 'Tesoura':
+-        print('HAHAHA... Eu ganhei.')
+-elif player_1 == 'Tesoura':
+-    if computador == 'Pedra':
+-        print('HAHAHA... Eu ganhei.')
+-    elif computador == 'Papel':
+-        print('AAAH! Você ganhou.')
+-else:
+-    print('JOGADA INVÁLIDA\n TENTE NOVAMENTE!')
++from uteis import *
++
++linha('JOKENPO')
++print(f'\033[0;41m{"Pedra Papel Tesoura":^30}\033[m\n')
++linha('Sua escolha: ')
++
++player_1 = user_input('Player 1: ')
++player_2 = user_input('Player 2: ')
++
+Index: uteis/__init__.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/uteis/__init__.py b/uteis/__init__.py
+new file mode 100644
+--- /dev/null	
++++ b/uteis/__init__.py	
+@@ -0,0 +1,22 @@
++def linha(txt):
++    print(f'\033[7;40m{txt.center(30)}\033[m')
++
++
++def user_input(txt):
++    while True:
++        try:
++            user = str(input(txt)).strip().title()
++            while user not in ('Pedra', 'Papel', 'Tesoura'):
++                print('Escolha uma opção válida!')
++                user = str(input(txt)).strip().title()
++        except:
++            print('Escolha um valor válido!')
++        else:
++            return user
++
++def escolhas(player_1, player_2):
++    opcoes = 'Pedra', 'Papel', 'Tesoura'
++    for cont, opcao in enumerate(lista):
++        if player_1 == 'Pedra':
++            if player_2 == opcao[cont]:
++                pass
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"ProjectRootManager\" version=\"2\" project-jdk-name=\"Python 3.10 (Meus_projetos_teste)\" project-jdk-type=\"Python SDK\" />\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+--- a/.idea/misc.xml	
++++ b/.idea/misc.xml	
+@@ -1,4 +1,4 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.10 (Meus_projetos_teste)" project-jdk-type="Python SDK" />
++  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.10" project-jdk-type="Python SDK" />
+ </project>
+\ No newline at end of file
+Index: .idea/EU.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<module type=\"PYTHON_MODULE\" version=\"4\">\n  <component name=\"NewModuleRootManager\">\n    <content url=\"file://$MODULE_DIR$\">\n      <excludeFolder url=\"file://$MODULE_DIR$/venv\" />\n    </content>\n    <orderEntry type=\"jdk\" jdkName=\"Python 3.10 (Meus_projetos_teste)\" jdkType=\"Python SDK\" />\n    <orderEntry type=\"sourceFolder\" forTests=\"false\" />\n  </component>\n</module>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/EU.iml b/.idea/EU.iml
+--- a/.idea/EU.iml	
++++ b/.idea/EU.iml	
+@@ -4,7 +4,7 @@
+     <content url="file://$MODULE_DIR$">
+       <excludeFolder url="file://$MODULE_DIR$/venv" />
+     </content>
+-    <orderEntry type="jdk" jdkName="Python 3.10 (Meus_projetos_teste)" jdkType="Python SDK" />
++    <orderEntry type="jdk" jdkName="Python 3.10" jdkType="Python SDK" />
+     <orderEntry type="sourceFolder" forTests="false" />
+   </component>
+ </module>
+\ No newline at end of file
