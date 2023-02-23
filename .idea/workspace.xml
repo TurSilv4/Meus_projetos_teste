@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1595d190-c8a9-43a0-89db-b323d22b08e8" name="Changes" comment="Atualização do jokenpo para 2 jogadores">
-      <change afterPath="$PROJECT_DIR$/projetoPizzaria/pizzaria.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projetoPizzaria/saboresPizza" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/EU.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/EU.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_14_07_2022_18_55__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_14_07_2022_18_55__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_07_2022_21_19_[Changes]1/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_07_2022_21_19__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_07_2022_21_19__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_07_2022_21_19__Changes_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projetoPizzaria/pizzaria.py" beforeDir="false" afterPath="$PROJECT_DIR$/projetoPizzaria/pizzaria.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +38,7 @@
     <setting file="file://$PROJECT_DIR$/botspam.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/menu.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/pegarcotacoes.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/projetoPizzaria/pizzaria.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/pysimplegui.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/testecadastro.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/window.py" root0="SKIP_INSPECTION" />
@@ -60,7 +54,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
   <component name="RecentsManager">
