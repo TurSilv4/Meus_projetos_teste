@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1595d190-c8a9-43a0-89db-b323d22b08e8" name="Changes" comment="Atualização do jokenpo para 2 jogadores">
+      <change beforePath="$PROJECT_DIR$/.idea/EU.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/EU.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_14_07_2022_18_55__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_14_07_2022_18_55__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_07_2022_21_19__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_07_2022_21_19__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projetoPizzaria/pizzaria.py" beforeDir="false" afterPath="$PROJECT_DIR$/projetoPizzaria/pizzaria.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/abandonados/back_jokenpo_2p/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/new/pedraPapelTesoura2Players/ppt.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,31 +38,29 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/back_jokenpo_2p/__init__.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/botspam.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/menu.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/pegarcotacoes.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/projetoPizzaria/pizzaria.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/pysimplegui.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/testecadastro.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/window.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/abandonados/JOKEMPOH 2PLAYERS/back jokenpoh/jokempoh.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/new/pedraPapelTesoura2Players/ppt.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="26DaJ2s80rK5zCwN52obLGgVckA" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\USER\PycharmProjects\EU" />
@@ -67,7 +69,7 @@
       <recent name="C:\Users\luizc\PycharmProjects\Meus_projetos_teste\projetoPizzaria" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.pizzaria">
+  <component name="RunManager" selected="Python.ppt">
     <configuration name="jkp_2p" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="EU" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -131,6 +133,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="ppt" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="EU" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/new/pedraPapelTesoura2Players" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/new/pedraPapelTesoura2Players/ppt.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="sla" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="EU" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -152,34 +175,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="teste" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="EU" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/teste.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ppt" />
         <item itemvalue="Python.pizzaria" />
         <item itemvalue="Python.jkp_2p" />
         <item itemvalue="Python.novojokenpo" />
         <item itemvalue="Python.sla" />
-        <item itemvalue="Python.teste" />
       </list>
     </recent_temporary>
   </component>
