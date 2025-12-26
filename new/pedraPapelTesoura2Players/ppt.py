@@ -1,7 +1,9 @@
-
+1
 #  SISTEMA
 
 import random
+from time import sleep
+
 
 def linha():
     print('-' * 30)
@@ -22,6 +24,10 @@ def leiaInt(str):
 def game(player_1, player_2):
     if player_1 == player_2:
         print('Empate! Mais uma vez...')
+        sleep (1)
+        print('[ 1 ] Pedra\n'
+              '[ 2 ] Papel\n'
+              '[ 3 ] Tesoura')
         return True
 
     elif player_1 == 1:
@@ -73,7 +79,7 @@ if gameMode == 1:
           '[ 2 ] Papel\n'
           '[ 3 ] Tesoura')
     linha()
-
+    
     empate = True
     while empate:  # LAÇO PRA SE CASO HAJA EMPATE REINICIE O CICLO
 
@@ -83,10 +89,19 @@ if gameMode == 1:
         while player_2 not in range(1, 4):  # LAÇO QUE VERIFICA SE A OPÇÃO É VALIDA
             print('\033[0;31mERRO: por favor informe um valor inteiro válido.\033[m')
             player_2 = leiaInt(' Sua escolha: ')
-
+        linha()
         print(f'Eu escolhi: {opçoes[player_1-1]}')
-        print(f'Você escolheu: {opçoes[player_2-1]}')
+        linha
+        sleep (1)
+        print(f'Você escolheu: {opçoes[player_2-1]}\n')
 
+        print('PEDRA')
+        sleep (1)
+        print('PAPEL')
+        sleep (1)
+        print('TESOURA')
+        sleep (1)
+        linha()
         empate = game(player_1, player_2)  #SISTEMA DO JOGO
 
 
